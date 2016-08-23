@@ -118,7 +118,7 @@ public class Espetaculo {
 
    public boolean Vagas(int qtd)
    {
-       // ALUNO: Não apague esse metodo. Esse sim será usado no futuro! ;)
+      
        int totDisp = 0;
 
        for (Sessao s : sessoes)
