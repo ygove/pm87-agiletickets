@@ -46,7 +46,7 @@ public class EspetaculosController {
 	@Inject
 	public EspetaculosController(Result result, Validator validator, Agenda agenda, DiretorioDeEstabelecimentos estabelecimentos) {
 		this.result = result;
-		this.validator = validator;
+		this.validator = validator; 
 		this.agenda = agenda;
 		this.estabelecimentos = estabelecimentos;
 	}
